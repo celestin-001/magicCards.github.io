@@ -1,0 +1,248 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/MagicBG2.jpg");
+    color: white;
+    color: white;
+    font-family: Pirata One, cursive;
+    letter-spacing: 0.2em;
+
+}
+header,footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background:#292929;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.space{
+    flex: 1;
+}
+footer>a{
+    color: blue;
+}
+a{
+    color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#injected{
+    overflow:auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    margin: 5px;
+
+}
+
+.magic{
+    margin: 5px;
+    padding: 10px 10px 3px 10px;
+    background: linear-gradient(30deg, black, transparent);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 400px;
+
+
+
+}
+.marge{
+    margin: 10px;
+}
+#generate{
+    display: flex;
+    align-items: center;
+}
+#label{
+    text-align: center;
+    color: black;
+}
+.display{
+    display: none;
+}
+#error{
+    background: white;
+    color: red;
+    font-size: 2em;
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+   width: 160px;
+    white-space: nowrap; /* empêche le texte de se retourner à la ligne */
+    overflow: hidden; /* cache le texte qui dépasse la largeur */
+    text-overflow: ellipsis;
+    font-size: 2em;
+}
+legend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    width: 2em;
+    height: 2em;
+}
+
+#selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#leg{
+    display: flex;
+    flex-direction: column;
+}
+
+#add-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+#span{
+    margin:5px;
+    padding: 10px 10px 3px 10px;
+}
+#sel{
+    margin-right:100vh ;
+}
+#sel{
+   font-size: 5em;
+}
+.add-class{
+    background: linear-gradient(70deg, black, transparent);
+    color: white;
+    height: 5em;
+    width: 10em;
+    margin: 5px;
+    text-align: center;
+
+}
+.card-class{
+    background: linear-gradient(70deg, orangered, transparent);
+}
+.href{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.shop{
+    font-size: 2em;
+    color: white;
+}
+
+#panier{
+    background: linear-gradient(70deg, black, transparent);
+    margin: 5px;
+    cursor: pointer;
+}
+#cards-shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#sel-shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.dis{
+    display: none;
+}
+#dis{
+    display: none;
+}
+.update{
+    background: red;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 3em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
